@@ -1,0 +1,52 @@
+body
+{
+        font-size: 10pt;
+        font-family: 'Lucida Grande',verdana,arial,helvetica,sans-serif;
+        background-color: #fff;
+        color: #333;
+}
+
+table
+{
+		background: #fff;
+        border-collapse: collapse;
+}
+ 
+td
+{
+        border: 1px dotted #ccc;
+        background: #F4F4F4;
+}
+ 
+th
+{
+        border:none;
+        background-color:#86d6f4 ; /* before #569D2F*/
+    color: white;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
